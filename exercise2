@@ -1,0 +1,35 @@
+<!doctype>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>exercise2</title>
+    </head>
+    <body>
+    <h1 style="text-align: center;">Cases of second class</h1>
+    <hr>
+    <p>This page has set <b>title,description,keyword,author,charset,style ang base URL.</b>It is also linked with a <b>stylesheet</b> and a piece of <b>JavaScript.</b></p>
+    <p>This page refresh itself every <mark>30</mark> seconds</p>
+    <p>You can find them in <sub>source code</sub> of this page.</p>
+    <hr>
+    <h2>Case 1:File path</h2>
+    <a href="F:\360MoveData\Users\huawei\Desktop\白菜的作品集\编程练习\fox.jpg">
+        <img src="fox.jpg" alt="show me a local picture">
+    </a> 
+    <hr>
+    <h2>Case 2:Stylize</h2>
+    <p style="color: red;font-size: 200%;font-family:'Courier New', Courier, monospace;text-align: left;border:1px dashed blue;">I stylized text color,font-size,font-family,text-align,border of this paragraph.</p>  
+    <hr>
+    <h2>Case 3:Here is <span style="color: red;">a frame</span></h2>
+    <iframe src="F:\360MoveData\Users\huawei\Desktop\白菜的作品集\编程练习\exercise1" name="ifreme-a"></iframe>
+    <p>insert <a href="https://www.hdu.edu.cn/main.htm" target="iframe-a">another page</a> to this frame</p>
+    <hr>
+    <h2>Case 4:Image with alt info & image as a link</h2>
+    <img src="F:\360MoveData\Users\huawei\Desktop\白菜的作品集\编程练习\zaorifacai.jpg">
+    <a href="https://www.hdu.edu.cn/main.htm">
+        <img src="F:\360MoveData\Users\huawei\Desktop\白菜的作品集\编程练习\spring.jpg">
+    </a>
+    <hr>
+    <h2>Case 5:Video & Audio with control panel</h2>
+    <video src="F:\360MoveData\Users\huawei\Desktop\白菜的作品集\编程练习\yuanshen.mp4" controls></video>
+    </body>
+</html>
