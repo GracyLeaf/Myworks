@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    body{
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .logo{
+        background: #eee;
+        text-align: left;
+        width: 100px;
+    }
+    .logo img{
+        float: left;
+        width: 100px;
+        height: 50px;
+    }
+    .topnav{
+        width: 400px;
+        height: 50px;
+    }
+    .libt{
+        float: left;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .libt a{
+        color: black;
+        display: block;
+    }
+    .libt a:hover{
+        background: #ccc;
+        opacity: 0.5;
+    }
+    .droplist{
+        background: #eee;
+        box-shadow: 0px 1px 2px #666;
+        display: none;
+    }
+    .libt:hover .droplist{
+        display: block;
+    }
+    .droplist li{
+        border-top:1px solid #ccc ;
+    }
+    .search{
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .search-field{
+        width: 500px;
+        height: 25px;
+        padding: 10px;
+        border: none;
+        border-radius: 25px;
+        outline: none;
+        background-image: url(cloud.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: contain;
+        padding-left: 50px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    .search-field:focus{
+        width: 60%;
+    }
+    .button{
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-btn{
+        height: 25px;
+        width: 75px;
+        background: #ccc;
+        border: none;
+        color: #000;
+        position: absolute;
+    }
+</style>
+<body background="Moon.jpg">
+    <div class="logo">
+        <img src="logo.png">
+    </div>
+    <div class="topnav">
+        <ul class="ullist">
+            <li class="libt"><a href="#">Picture</a></li>
+            <li class="libt"><a href="#">Video</a></li>
+            <li class="libt">
+                <a href="#">More</a>
+                <ul class="droplist">
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Story</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> 
+    <br><br><br><br><br><br><br><br><br>
+    <div class="search">
+        <input type="text" class="search-field">
+    </div>
+    <div class="button">
+        <button class="search-btn" type="button">search</button>
+    </div>    
+     
+     
+</body>
+</html>
